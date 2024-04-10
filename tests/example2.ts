@@ -1,7 +1,7 @@
 import { test, expect } from "@playwright/test";
 
 export default function createTests() {
-  test("homepage has title and links to intro page", async ({ page }) => {
+  test("homepage has title and links to intro page 2", async ({ page }) => {
     await page.goto("https://playwright.dev/");
 
     // Expect a title "to contain" a substring.
